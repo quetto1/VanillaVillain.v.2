@@ -30,7 +30,7 @@
   color: azure;
 }
 
-.links-wrapper div {
+.links-wrapper div a {
   font-size: 3rem;
   letter-spacing: 9px;
   -webkit-user-select: none;
@@ -43,18 +43,17 @@
   overflow: hidden;
 }
 
-.links-wrapper div:hover {
+.links-wrapper div a:hover {
   cursor: pointer;
-  /* color: black; */
   font-size: 95px;
   text-shadow: 8px 8px black;
 }
 @media only screen and (max-width: 1200px) {
-  .links-wrapper div {
+  .links-wrapper div a {
     font-size: 25px;
   }
 
-  .links-wrapper div:hover {
+  .links-wrapper div a:hover {
     font-size: 45px;
   }
 }
@@ -69,11 +68,11 @@
     justify-content: center;
   }
 
-  .links-wrapper div {
+  .links-wrapper div a{
     font-size: 35px;
     text-align: center;
   }
-  .links-wrapper div:hover {
+  .links-wrapper div a:hover {
     font-size: 35px;
   }
   
