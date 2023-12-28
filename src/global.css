@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'DotGothic16', sans-serif;
+
+}
+
+body {
+  color: #FFFFFF;
+  background-color: black;
+  
+}
+
