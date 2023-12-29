@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import About from "./components/pages/about/About";
 import Music from "./components/pages/music/Music";
 import Events from "./components/pages/events/events";
@@ -11,7 +10,6 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
       <main>
         <Routes>
           <Route  path="/" element={<About></About>}></Route>
