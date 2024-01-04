@@ -1,7 +1,7 @@
 .glitch-header {
     max-width: 1200px;
     text-align: left;
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
@@ -13,7 +13,7 @@
     transition: all 0.5s;
   }
   .glitch-header-wrapper{
- max-width: 1200px;
+    max-width: 1200px;
     display: flex; 
     flex-direction: column;
     margin: auto;
@@ -84,8 +84,11 @@
   }
   
   @media only screen and (max-width: 1200px) {
+ 
     .glitch-header {
       font-size: 4rem;
+      max-width: 650px;
+      justify-content: center;
     }
     .glitch-header:hover {
       font-size: 5rem;
@@ -93,7 +96,10 @@
   }
   
   @media only screen and (max-width: 650px) {
+   
     .glitch-header {
       font-size: 3rem;
+      max-width: 320px;
+
     }
   }
