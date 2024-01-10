@@ -1,5 +1,5 @@
 import Header from "../../Header";
-import WobblyBackground from "../../../assets/headerBackgrounds/RecBackground50FPS.gif"
+import WobblyBackground from "../../../assets/headerBackgrounds/Wobbly_black50fps.gif"
 import PageHeader from "../../pageHeader/PageHeader";
 
 
