@@ -3,13 +3,13 @@ import WobblyBackground from "../../../assets/headerBackgrounds/Wobbly_black50fp
 import PageHeader from "../../pageHeader/PageHeader";
 
 
-function Kupsko() {
+function Contact() {
     return(
         <div>
         <Header img={WobblyBackground}></Header>
-        <PageHeader title="XDD"></PageHeader>
-            Kupsko Page
+        <PageHeader title="Contact"></PageHeader>
+            Contact Page
         </div>
     )
 }
-export default Kupsko;
+export default Contact;

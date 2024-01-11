@@ -1,0 +1,17 @@
+.mix-cloud-player-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .mix-cloud-player-wrapper {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .mix-cloud-player-wrapper {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,25 @@
+.header-v1-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-v1-wrapper h1 {
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-v1-wrapper {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header-v1-wrapper {
+    font-size: 20px;
+    max-width: 320px;
+  }
+}

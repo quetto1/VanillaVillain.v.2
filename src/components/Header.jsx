@@ -11,7 +11,7 @@ function Header(props) {
                 <div><Link to="/#about-header" className={glitchStyles['glitch-support']}>About</Link></div>
                 <div><Link to="/music" className={glitchStyles['glitch-support']}>Music</Link></div>
                 <div><Link to="/events" className={glitchStyles['glitch-support']}>Events</Link></div>
-                <div><Link to="/kupsko" className={glitchStyles['glitch-support']}>Kupsko</Link></div>
+                <div><Link to="/contact" className={glitchStyles['glitch-support']}>Contact</Link></div>
             </div>
         </div>
     );
