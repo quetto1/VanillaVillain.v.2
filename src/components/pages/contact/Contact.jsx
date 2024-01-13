@@ -1,6 +1,7 @@
 import Header from "../../Header";
-import WobblyBackground from "../../../assets/headerBackgrounds/Wobbly_black50fps.gif"
 import PageHeader from "../../pageHeader/PageHeader";
+
+import WobblyBackground from "../../../assets/headerBackgrounds/BackgroundsTest1/wobblyDVtexture.gif"
 
 
 function Contact() {

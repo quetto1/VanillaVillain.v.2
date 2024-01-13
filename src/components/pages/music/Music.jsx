@@ -1,9 +1,11 @@
 import Header from "../../Header";
-import WobblyBackground from "../../../assets/headerBackgrounds/Wobbly_black50fps.gif"
 import PageHeader from "../../pageHeader/PageHeader";
 import MixCloudPlayer from "../../mixCloudPlayer/MixCloudPlayer";
 import YoutubeVideoComponent from "../../youtubeVideoComp/YoutubeVideoComponent";
 import HeaderV1 from "../../smallComponents/headerV1/HeaderV1";
+
+import WobblyBackground from "../../../assets/headerBackgrounds/BackgroundsTest1/wobblyspookycamera.gif"
+
 
 function Music() {
     return(

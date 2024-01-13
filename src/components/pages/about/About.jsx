@@ -1,11 +1,13 @@
-import Header from "../../Header";
-import WobblyBackground from "../../../assets/headerBackgrounds/Wobbly_black50fps.gif"
 import "./About.css"
+
+import Header from "../../Header";
 import PageHeader from "../../pageHeader/PageHeader";
 import RowComponent1 from "../../rowComponentV1/RowComponentV1";
 import RowComponent2 from "../../rowComponentV2/RowComponentV2";
 import RowComponentV3 from "../../rowComponentV3/RowComponentV3";
 import RowComponentV4 from "../../rowComponentV4/RowComponentV4";
+
+import WobblyBackground from "../../../assets/headerBackgrounds/BackgroundsTest1/wobbly_black2.gif"
 import VanillaVillanPhoto1 from "../../../assets/pagePhotos/vv1.jpg"
 import VanillaVillanPhoto2 from "../../../assets/pagePhotos/vv2.png"
 import VanillaVillanPhoto3 from "../../../assets/InstaVanilla.gif"
