@@ -1,0 +1,27 @@
+.basic-vertical-poster-wrapper-main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.basic-vertical-poster-wrapper-main {
+    width: 576px;
+    height:  832px;
+}
+
+@media only screen and (max-width:1200px) {
+    .basic-vertical-poster-wrapper-main {
+        width: 360px;
+        height: 520px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .basic-vertical-poster-wrapper-main {
+        width: 225px;
+        height: 325px;
+    }
+}
